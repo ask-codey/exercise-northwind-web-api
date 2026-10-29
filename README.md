@@ -32,3 +32,7 @@ Run the tests with **Test > Run All Tests** (or `dotnet test`). Then run the API
 - `CreatedAtAction(nameof(GetById), new { id = added.ProductId }, added)` answers 201 with the Location header.
 - `[ApiController]` answers 400 for invalid products by itself; you don't need to check `ModelState`.
 - `builder.Services.AddProblemDetails()`, `builder.Services.AddExceptionHandler<DatabaseConflictHandler>()`, and `app.UseExceptionHandler()` right after `builder.Build()`.
+
+## Hand it in
+
+When it works, push your solution to a public repo of your own on GitHub, then paste that repo's address into **Submit your exercise** on the lesson page at [ask-codey.com](https://www.ask-codey.com). That's what completes the lesson. The lesson page shows the Git commands, step by step.
