@@ -1,6 +1,6 @@
-# Practice: Northwind Web API
+# Exercise: Northwind Web API
 
-Practice code for the lesson **Practice: Northwind Web API** in the C# Full-Stack Bootcamp on [ask-codey.com](https://www.ask-codey.com).
+Exercise code for the lesson **Exercise: Northwind Web API** in the C# Full-Stack Bootcamp on [ask-codey.com](https://www.ask-codey.com).
 
 Northwind's products need an API, so other programs can read and change them. The DAO is written; you'll write the controller, and set up `Program.cs` so the API registers its DAO and handles errors in one place.
 
